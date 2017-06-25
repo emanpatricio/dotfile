@@ -15,12 +15,15 @@ set nocompatible
 set ls=2
 set hlsearch
 
+" Make VIM transparent
+" hi Normal guibg=NONE ctermbg=NONE
+
 " Improve vim's scrolling speed
 set ttyfast
 set ttyscroll=3
 set lazyredraw
 
-set wildmenu			" show completion on the mode-line
+set wildmenu      " show completion on the mode-line
 
 " Whitespace
 set tabstop=2 shiftwidth=2      " a tab is two spaces
